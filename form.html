@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Informador Digital - Contacto</title>
+    <title>Contacto - Informador Digital</title>
 </head>
+
 <body>
-        <header>
-                <center><table border="0" cellpadding="10" cellspacing="0">
-                    <tr>
-                        <td><img src="img/logo.png" alt="Logo del periódico" width="70" height="70"></td>
-                        <td><h1>Periódico Informador Digital</h1></td>
-                    </tr>
-                </table></center>
-            </header>
-            <hr>
-            <nav>
-                <a href="index.html">Inicio </a>&nbsp;|&nbsp;
-                <a href="form.html"> Contacto</a>
-            </nav>
-            <section>
-                <form action="form.html" method="POST">
-                    <h2><center>CONTACTO</center></h2>
-                    <fieldset>
-                        <legend>Información de contacto</legend>
-                        <br>
-                        <label for="nombre">Tú nombre (requerido)</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Nelson Guardado" required pattern="[a-zA-Z\s]{5,100}">
-                        <br><br>
-                        <label for="email">Tú correo electrónico (requerido)</label>
-                        <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
-                        <br><br>
-                        <label for="tel">Tú teléfono (requerido)</label>
-                        <input type="tel" name="tel" id="tel" placeholder="12345678" required pattern="[0-9]{8}">
-                        <br><br>
-                        <label for="depto">Departamento de residencia</label>
-                        <select name="depto" id="depto" required>
-                            <option value="">Departamento...</option>
-                            <option value="AHU">Ahuachapán</option>
-                            <option value="CAB">Cabañas</option>
-                            <option value="CHA">Chalatenango</option>
-                            <option value="CUS">Cuscatlán</option>
-                            <option value="LIB">La Libertad</option>
-                            <option value="PAZ">La Paz</option>
-                            <option value="UNI">La Unión</option>
-                            <option value="MOR">Morazán</option>
-                            <option value="SSV">San Salvador</option>
-                            <option value="SMI">San Miguel</option>
-                            <option value="ANA">Santa Ana</option>
-                            <option value="SMI">San Miguel</option>
-                            <option value="SVI">San Vicente</option>
-                            <option value="SON">Sonsonate</option>
-                        </select>
-                        <br><br>
-                        <label for="asunto">Asunto</label>
-                        <input type="text" name="asunto" id="asunto" placeholder="Alteración de contenido" required pattern="[a-zA-Z\s]{3,50}">
-                        <br><br>
-                        <label for="mensaje">Tu mensaje</label>
-                        <br>
-                        <textarea name="mensaje" id="mensaje" cols="120" rows="10" required></textarea>
-                    </fieldset>
-                    <br>
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
-            <br><br>
-            <aside>
-                <center><img src="img/publicidad2.jpg" alt="Bancovi" width="500" height="100"></center> 
-            </aside>
-            <footer>
-                    <hr>
-                    <center><p>2018. TODOS LOS DERECHOS RESERVADOS • POLÍTICA DE PRIVACIDAD • </p>
-                    <p>CONTACTO: 00060917@uca.edu.sv&nbsp;&nbsp;&nbsp;&nbsp;Tel: 503 2257 7777</p></center>
-            </footer>
+    <header>
+        <center>
+            <table border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><img src="img/logo.png" alt="Logo del periódico" width="70" height="70"></td>
+                    <td>
+                        <h1>Periódico Informador Digital</h1>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </header>
+    <hr>
+    <nav>
+        <a href="index.html">Inicio </a>&nbsp;|&nbsp;
+        <a href="form.html"> Contacto</a>
+    </nav>
+    <section>
+        <form action="form.html" method="POST">
+            <h2>
+                <center>CONTACTO</center>
+            </h2>
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <br>
+                <label for="nombre">Tú nombre (requerido)</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nelson Guardado" required pattern="[a-zA-Z\s]{5,100}">
+                <br><br>
+                <label for="email">Tú correo electrónico (requerido)</label>
+                <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" required>
+                <br><br>
+                <label for="tel">Tú teléfono (requerido)</label>
+                <input type="tel" name="tel" id="tel" placeholder="12345678" required pattern="[0-9]{8}">
+                <br><br>
+                <label for="depto">Departamento de residencia</label>
+                <select name="depto" id="depto" required>
+                    <option value="">Departamento...</option>
+                    <option value="AHU">Ahuachapán</option>
+                    <option value="CAB">Cabañas</option>
+                    <option value="CHA">Chalatenango</option>
+                    <option value="CUS">Cuscatlán</option>
+                    <option value="LIB">La Libertad</option>
+                    <option value="PAZ">La Paz</option>
+                    <option value="UNI">La Unión</option>
+                    <option value="MOR">Morazán</option>
+                    <option value="SSV">San Salvador</option>
+                    <option value="SMI">San Miguel</option>
+                    <option value="ANA">Santa Ana</option>
+                    <option value="SMI">San Miguel</option>
+                    <option value="SVI">San Vicente</option>
+                    <option value="SON">Sonsonate</option>
+                </select>
+                <br><br>
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto" placeholder="Alteración de contenido" required pattern="[a-zA-Z\s]{3,50}">
+                <br><br>
+                <label for="mensaje">Tu mensaje</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="120" rows="10" required></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <br><br>
+    <aside>
+        <center><img src="img/publicidad2.jpg" alt="Bancovi" width="500" height="100"></center>
+    </aside>
+    <footer>
+        <hr>
+        <center>
+            <p>2018. TODOS LOS DERECHOS RESERVADOS • POLÍTICA DE PRIVACIDAD • </p>
+            <p>CONTACTO: 00060917@uca.edu.sv&nbsp;&nbsp;&nbsp;&nbsp;Tel: 503 2257 7777</p>
+        </center>
+    </footer>
 </body>
+
 </html>
